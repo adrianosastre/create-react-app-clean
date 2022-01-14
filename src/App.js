@@ -1,19 +1,19 @@
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import Welcome from './pages/Welcome';
-import Layout from './layout/components/Layout';
-import List from './pages/List';
-import Add from './pages/Add';
-import Item from './pages/Item';
+import WelcomePage from './pages/WelcomePage';
+import Layout from './components/layout/Layout';
+import ListPage from './pages/ListPage';
+import AddPage from './pages/AddPage';
+import ItemPage from './pages/ItemPage';
 
 function App() {
     return (
         <BrowserRouter>
             <Layout>
                 <Routes>
-                    <Route path='/' exact element={<Welcome />} />
-                    <Route path='/list' element={<List />} />
-                    <Route path='/add' element={<Add />} />
-                    <Route path='/item' element={<Item />} />
+                    <Route path='/' exact element={<WelcomePage />} />
+                    <Route path='/list' element={<ListPage />} />
+                    <Route path='/add' element={<AddPage />} />
+                    <Route path='/item' element={<ItemPage />} />
                 </Routes>
             </Layout>
         </BrowserRouter>

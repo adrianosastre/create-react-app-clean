@@ -1,4 +1,4 @@
-const Item = (props) => {
+const ItemPage = (props) => {
     return (
         <section>
             <h2>Item</h2>
@@ -6,4 +6,4 @@ const Item = (props) => {
     );
 };
 
-export default Item;
+export default ItemPage;

@@ -1,4 +1,4 @@
-const Add = (props) => {
+const AddPage = (props) => {
     return (
         <section>
             <h2>Add</h2>
@@ -6,4 +6,4 @@ const Add = (props) => {
     );
 };
 
-export default Add;
+export default AddPage;
